@@ -2,74 +2,95 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <style>
-    h1 {
-      font-size: 125%;
-    }
-
-    p {
-      font-size: 125%;
-    }
-
-    body {
-      background-color: #f4f4f4;
-    }
-  </style>
   <meta charset="utf-8">
   <title>Matts Digital Portfolio</title>
-
-  <h1>About Me</h1>
+  <link rel="stylesheet" href="styles.css">
+</head>
 
 <body>
-  <img src="images/mattphoto.jpg" alt="picture" width="225">
-  <p><i>My name is Matthew Burke and I am 26 years old.<br>
-      I am a senior at Stony Brook University as a history<br>
-      major with a minor in political science. My goal is to pursue<br>
-      a career in government service after my schooling.</i></p>
-</body>
-<hr>
-<h1>Education</h1>
-<table cellspacing="10">
-  <thead>
-    <tr>
-      <th>Dates</th>
-      <th>Institution</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>2009-2013</td>
-      <td><a href="https://www.riverhead.net/schools/riverhead_high_school">Riverhead High School</a></td>
-    </tr>
-    <td>2013-2017</td>
-    <td><a href="http://www.sunysuffolk.edu">Suffolk Community College</a></td>
-    <tr>
-      <td>2018-present</td>
-      <td><a href="https://www.stonybrook.edu">Stony Brook University</a></td>
-    </tr>
-  </tbody>
-</table>
-<hr>
-<h1>Work Experience</h1>
-<ul>
-  <li>Fedex 2018-present</li>
-  <a href="https://library.stonybrook.edu/2019/12/02/meet-special-collections-intern-matthew-burke/">
-    <li>Special Collection Internship 2019-2020
-  </a></li>
-  <li>Trugreen Lawn Care 2017-2018</li>
-  <li>Costco 2016-2017</li>
-  <li>Calverton National Cemetery 2015-2016</li>
-</ul>
-<hr>
-<table cellspacing= "10">
-<thead>
-<tr>
-<th><a href="hobbies.html">Hobbies & Interests</a></th>
-<th><a href="contact.html">Contact Me</a></th>
-<th><a href=https://my.indeed.com/p/mattb-z8xj46h target="_blank">My Resume</a></th>
-</thead>
-</tr>
-</table>
-</body>
+  <div id="header">
+    <img id="profilepic" src="images/mattphoto.jpg" alt="picture">
+  </div>
+
+  <div id="contents">
+    <div id="firstcontentsection" class="contentsection">
+      <h1 id="aboutsection">About Me</h1>
+      <p>My name is Matthew Burke and I am 26 years old.<br>
+        I am a senior at Stony Brook University as a history<br>
+        major with a minor in political science. My goal is to pursue<br>
+        a career in government service after my schooling.
+      </p>
+    </div>
+
+    <div class="contentsection">
+      <h1 id="educationsection">Education</h1>
+      <table cellspacing="10">
+        <thead>
+          <tr>
+            <th>Dates</th>
+            <th>Institution</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2009-2013</td>
+            <td><a href="https://www.riverhead.net/schools/riverhead_high_school">Riverhead High School</a></td>
+          </tr>
+          <td>2013-2017</td>
+          <td><a href="http://www.sunysuffolk.edu">Suffolk Community College</a></td>
+          <tr>
+            <td>2018-present</td>
+            <td><a href="https://www.stonybrook.edu">Stony Brook University</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="contentsection">
+      <h1 id="worksection">Work Experience</h1>
+      <table cellspacing="10">
+        <thead>
+          <tr>
+            <th>
+              <h3>Dates</h3>
+            </th>
+            <th>
+              <h3>Work</h3>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2015-2016</td>
+            <td>Calverton National Cemetery</td>
+          </tr>
+          <td>2016-2017</td>
+          <td>Costco</td>
+          <tr>
+            <td>2017-2018</td>
+            <td>Trugreen Lawn Care</td>
+          </tr>
+          <td>2018-present</td>
+          <td>Fedex</td>
+          <tr>
+            <td>2019-2020</td>
+            <td><a href="https://library.stonybrook.edu/2019/12/02/meet-special-collections-intern-matthew-burke/">
+                Special Collections Internship</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div id="footer">
+      <div>
+        <a href="hobbies.html">Hobbies & Interests</a>
+      </div>
+      <div>
+        <a href="contact.html">Contact Me</a>
+      </div>
+      <div>
+        <a href=https://my.indeed.com/p/mattb-z8xj46h target="_blank">My Resume</a>
+      </div>
+    </div>
 
 </html>

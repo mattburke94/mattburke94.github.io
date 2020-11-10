@@ -1,5 +1,102 @@
+h1 {
+  font-weight: normal;
+  font-size: 1.8em;
+  color: #f7f1e3;
+  text-decoration: underline;
+  margin-left: 1.5%;
+}
+
+#header {
+  float: left;
+  width: 100%;
+}
+
+#profilepic {
+  float: left;
+  width: 275px;
+  height: 230px;
+  margin-left: 35.75%;
+  margin-bottom: 1.375%;
+  margin-top: 1em;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+#contents {
+  float: left;
+  width: 100%;
+}
+
+.contentsection {
+  float: left;
+  width: 100%;
+  border: 1.5px solid white;
+  border-radius: 10px;
+  margin-bottom: 1.5em;
+  background: rgba(15, 15, 15, 0.7);
+}
+
+#firstcontentsection {
+  margin-top: 1.55em;
+}
+
+table {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #f7f1e3;
+  text-decoration: underline;
+  margin-left: 1.5%;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: #CAD3C8;
+  font-size: 1.1em;
+  font-family: georgia;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+p {
+  margin-left: 1.5%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  font-style: italic;
+  color: #f7f1e3;
+}
+
+ul {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  color: #f7f1e3;
+  margin-left: 1.5%;
+}
 
 body {
-  background-image: image("images/Vietnambeach.jpg");
+  background-image: url("images/Vietnambeach.jpg");
+  background-size: cover;
   background-repeat: repeat-y;
+}
+
+#footer {
+  float: left;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 1.5px solid white;
+  border-radius: 10px;
+  background: rgba(15, 15, 15, 0.7);
+}
+
+#footer>div {
+  /* selects all div containers that have #footer as the parent */
+  flex: 1 1 auto;
+  margin: 10px 15px;
+  /* top and bottom, right and left */
+  padding: 15px;
+  text-align: center;
+  border-radius: 10px;
 }
