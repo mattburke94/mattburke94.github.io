@@ -44,12 +44,11 @@ table {
   font-weight: bold;
   font-size: 1.2em;
   color: #f7f1e3;
-  text-decoration: underline;
   margin-left: 1.5%;
 }
 
 a:link, a:visited, a:hover, a:active {
-  color: #CAD3C8;
+  color: #f8e4b7;
   font-size: 1.1em;
   font-family: georgia;
   font-style: italic;
