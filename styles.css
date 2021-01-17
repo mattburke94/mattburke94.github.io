@@ -42,7 +42,7 @@ h1 {
 
 table {
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1.3em;
   color: #f7f1e3;
   margin-left: 1.5%;
 }
@@ -77,6 +77,10 @@ body {
   background-image: url("images/Vietnambeach.jpg");
   background-size: cover;
 }
+
+#booklist {background: rgba(07, 14, 10, 0.7);
+font-weight: bold;
+color:#f7f1e3}
 
 #footer {
   float: left;
